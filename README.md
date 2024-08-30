@@ -14,7 +14,7 @@ Pending to include
 ### 3. [Web Scrapping: Market Dynamics Analysis using Web Scraping](./Projects/Market_Dynamics_Analytics)
 - Web scraping data from various websites to gather information on market trends and movements. The data was then analyzed to understand how the market behaves over time, highlighting drivers of supply and demand.
 
-### 4. [VBA - Excel Macros](./Projects/New_Assets_Tracking)
+### 4. [VBA - Excel Macros]([./Projects/New_Assets_Tracking](https://github.com/B-White-M/VBA-Excel-Macros/blob/a432583f6d56b43104536046d765341bdb011824/README.md))
 - VBA-based form that collects responses and automatically organizes them in an Excel spreadsheet. The form streamlines the data entry process, ensuring that responses are consistently formatted and stored in a structured database
 - This project automates the process of sending emails to selected recipients directly from Excel using VBA. By extracting the recipient data from the spreadsheet, the VBA script generates and sends personalized emails.
  
