@@ -5,7 +5,7 @@ Feel free to explore the projects, and don't hesitate to reach out if you have a
 
 ## Projects
 
-### 1. [Power BI: Global_Assets_Dashboard](https://github.com/B-White-M/Global_Assets_Dashboard/blob/5e4ad42068e289b3d2c627908a56199159234422/README.md)
+### 1. [Power BI: Global_Assets_Dashboard](https://github.com/B-White-M/Global_Assets_Dashboard/blob/b5c86bcb562c39fa98d19c0b1bce6c0000d5ab3a/README.md)
 - Power BI project that analyzes and visualizes asset management data, identifies recurring errors and potential financial risks, and includes a real-time location visualization map connected to an SQL environment to support decision-making.
 
 ### 2. [SQL Repository: Pending to include](./Projects/SQL)
