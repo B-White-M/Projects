@@ -11,7 +11,7 @@ Feel free to explore the projects, and don't hesitate to reach out if you have a
 ### 2. [SQL Repository: Pending to include](./Projects/SQL)
 Pending to include 
 
-### 3. [Web Scrapping: Market Dynamics Analysis using Web Scraping](./Projects/Market_Dynamics_Analytics)
+### 3. [Web Scrapping: Market Dynamics Analysis using Web Scraping](https://github.com/B-White-M/B-White-M/Pyton-Jupyter-)
 - Web scraping data from various websites to gather information on market trends and movements. The data was then analyzed to understand how the market behaves over time, highlighting drivers of supply and demand.
 
 ### 4. [VBA - Excel Macros](https://github.com/B-White-M/VBA-Excel-Macros/tree/main)
