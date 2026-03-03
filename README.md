@@ -5,11 +5,11 @@ Feel free to explore the projects, and don't hesitate to reach out if you have a
 
 ## Projects
 
-### 1. [Power BI: Global_Assets_Dashboard](https://github.com/B-White-M/Global_Assets_Dashboard/tree/main)
-- Power BI project that analyzes and visualizes asset management data, identifies recurring errors and potential financial risks, and includes a real-time location visualization map connected to an SQL environment to support decision-making.
-
-### 2. [SQL Repository: Pending to include](./Projects/SQL)
+### 1. [AI Conversational Commerce Orchestrator](./Projects/SQL)
 Pending to include 
+
+### 2. [Power BI: Global_Assets_Dashboard](https://github.com/B-White-M/Global_Assets_Dashboard/tree/main)
+- Power BI project that analyzes and visualizes asset management data, identifies recurring errors and potential financial risks, and includes a real-time location visualization map connected to an SQL environment to support decision-making.
 
 ### 3. [Python: Web Scrapping](https://github.com/B-White-M/Pyton-Jupyter-/tree/main)
 - Web scraping data from various websites to gather information on market trends and movements. The data was then analyzed to understand how the market behaves over time, highlighting drivers of supply and demand.
