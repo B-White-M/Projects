@@ -34,13 +34,25 @@ Key capabilities:
 
 The system demonstrates applied AI, event-driven architecture, and production-ready data modeling principles.
 
-### 2. [Power BI: Global_Assets_Dashboard -- 2023-2024](https://github.com/B-White-M/Global_Assets_Dashboard/tree/main)
+### 2. [Power BI Row Level Security Architecture -- 2025](https://github.com/B-White-M/tabular-rls-multi-level-security/blob/5379fe65034ab5fb50da3ee72cd6498db931c1cf/Architecture.md)
+Documentation of a **Row Level Security (RLS) architecture** for tabular models.
+
+This project explains how to design scalable security using **dimensional hierarchies and filter propagation**.
+
+Topics covered:
+- hierarchical security (Hypergroup → Profit Center → WBS)
+- security tables
+- superuser access
+- filter propagation in tabular models
+- impersonation testing in Power BI
+
+### 3. [Power BI: Global_Assets_Dashboard -- 2023-2024](https://github.com/B-White-M/Global_Assets_Dashboard/tree/main)
 - Power BI project that analyzes and visualizes asset management data, identifies recurring errors and potential financial risks, and includes a real-time location visualization map connected to an SQL environment to support decision-making.
 
-### 3. [Python: Web Scrapping 2023-2024](https://github.com/B-White-M/Pyton-Jupyter-/tree/main)
+### 4. [Python: Web Scrapping 2023-2024](https://github.com/B-White-M/Pyton-Jupyter-/tree/main)
 - Web scraping data from various websites to gather information on market trends and movements. The data was then analyzed to understand how the market behaves over time, highlighting drivers of supply and demand.
 
-### 4. [VBA - Excel Macros -- 2022-2023](https://github.com/B-White-M/VBA-Excel-Macros/tree/main)
+### 5. [VBA - Excel Macros -- 2022-2023](https://github.com/B-White-M/VBA-Excel-Macros/tree/main)
 - VBA-based form that collects responses and automatically organizes them in an Excel spreadsheet. The form streamlines the data entry process, ensuring that responses are consistently formatted and stored in a structured database
 - This project automates the process of sending emails to selected recipients directly from Excel using VBA. By extracting the recipient data from the spreadsheet, the VBA script generates and sends personalized emails.
  
