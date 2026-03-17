@@ -34,7 +34,7 @@ Key capabilities:
 
 The system demonstrates applied AI, event-driven architecture, and production-ready data modeling principles.
 
-### 2. [Power BI Row Level Security Architecture -- 2025](https://github.com/B-White-M/tabular-rls-multi-level-security/blob/5379fe65034ab5fb50da3ee72cd6498db931c1cf/Architecture.md)
+### 2. [RLS-Row Level Security Tabular Architecture -- 2025](https://github.com/B-White-M/tabular-rls-multi-level-security/blob/5379fe65034ab5fb50da3ee72cd6498db931c1cf/Architecture.md)
 Documentation of a **Row Level Security (RLS) architecture** for tabular models.
 
 This project explains how to design scalable security using **dimensional hierarchies and filter propagation**.
