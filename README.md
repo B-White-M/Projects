@@ -1,63 +1,94 @@
-# Data & AI Engineering Projects
-Welcome to my Power BI Projects Portfolio! This repository showcases some of the projects I've worked on during my professional career. Each project includes the respective file code and a detailed description of the analysis and visuals used.
+# Byron White — Data & AI Engineering
 
-This repository showcases selected projects focused on:
+> Production AI agents built on real data infrastructure — ETL, RAG, and vector search, not chatbot wrappers.
 
-- Applied AI systems
-- Data engineering architecture
-- Workflow orchestration
-- Business intelligence
-- Automation and production-ready SQL design
+I design and ship AI systems that execute real business actions: conversational commerce agents, retrieval-augmented inventory search, and the data pipelines that make them reliable. My approach is data-first — the intelligence layer is only as good as the structured data underneath it.
 
+This repository indexes selected work across applied AI, data engineering, security architecture, and business intelligence.
 
-## Projects
+**Focus areas:** Agentic AI · RAG & vector search · Workflow orchestration · Data modeling · Multi-tenant security · BI & automation
 
-### 1. [AI Conversational Commerce Orchestrator -- 2025-2026](https://github.com/B-White-M/mom-ia-PUBLIC) 
-An end-to-end AI-driven conversational commerce system designed to automate WhatsApp-based sales operations.
+---
 
-This project integrates:
+## Featured — Applied AI
 
-- n8n for workflow orchestration
-- Supabase (PostgreSQL + pgvector) for structured storage and vector search
-- OpenAI Assistants API for conversational intelligence
-- Twilio for WhatsApp messaging
-- Custom SQL functions for queue processing, RAG retrieval, and business logic
+### AI Conversational Commerce Orchestrator · 2025–2026
 
-Key capabilities:
+**Repo:** [mom-ia-PUBLIC](https://github.com/B-White-M/mom-ia-PUBLIC)
 
-- Intent detection (purchase, catalog request, complaint, etc.)
-- RAG-based contextual memory (vector similarity search)
-- Purchase flow handling and structured logging
-- Complaint escalation and internal summarization
-- Modular workflow architecture documented per component
-- Database schema versioned with SQL (functions, triggers, policies)
+An end-to-end AI agent that automates WhatsApp sales operations — answering product questions in natural language, building carts, generating quotes, and escalating to a human when needed.
 
-The system demonstrates applied AI, event-driven architecture, and production-ready data modeling principles.
+**Stack**
 
-### 2. [RLS-Row Level Security Tabular Architecture -- 2025](https://github.com/B-White-M/tabular-rls-multi-level-security/blob/5379fe65034ab5fb50da3ee72cd6498db931c1cf/Architecture.md)
-Documentation of a **Row Level Security (RLS) architecture** for tabular models.
+- **n8n** (self-hosted) for event-driven workflow orchestration
+- **Claude API** for reasoning — Haiku for intent classification, Sonnet for response generation — using tool calling (function calling with JSON schemas) so the model returns structured actions, not free text
+- **Supabase (PostgreSQL + pgvector)** for structured storage and semantic vector search
+- **OpenAI** for multimodal input — Whisper (audio), Vision (images), and embeddings (`text-embedding-3-small`)
+- **Meta Cloud API (WhatsApp Business API)** as the messaging channel
 
-This project explains how to design scalable security using **dimensional hierarchies and filter propagation**.
+**Key capabilities**
 
-Topics covered:
-- hierarchical security (Hypergroup → Profit Center → WBS)
-- security tables
-- superuser access
-- filter propagation in tabular models
-- impersonation testing in Power BI
+- Natural-language inventory search via RAG (semantic, not keyword matching)
+- Intent detection and tool-based routing
+- Multimodal understanding — text, voice notes, and images
+- Cart handling and structured quote generation
+- Deterministic business logic — inventory and state changes handled outside the LLM layer
+- Human escalation with conversation summarization
+- Multi-tenant isolation via Row-Level Security (RLS)
 
-### 3. [Power BI: Global_Assets_Dashboard -- 2023-2024](https://github.com/B-White-M/Global_Assets_Dashboard/tree/main)
-- Power BI project that analyzes and visualizes asset management data, identifies recurring errors and potential financial risks, and includes a real-time location visualization map connected to an SQL environment to support decision-making.
+Demonstrates applied AI, event-driven architecture, and production-ready data modeling.
 
-### 4. [Python: Web Scrapping 2023-2024](https://github.com/B-White-M/Pyton-Jupyter-/tree/main)
-- Web scraping data from various websites to gather information on market trends and movements. The data was then analyzed to understand how the market behaves over time, highlighting drivers of supply and demand.
+---
 
-### 5. [VBA - Excel Macros -- 2022-2023](https://github.com/B-White-M/VBA-Excel-Macros/tree/main)
-- VBA-based form that collects responses and automatically organizes them in an Excel spreadsheet. The form streamlines the data entry process, ensuring that responses are consistently formatted and stored in a structured database
-- This project automates the process of sending emails to selected recipients directly from Excel using VBA. By extracting the recipient data from the spreadsheet, the VBA script generates and sends personalized emails.
- 
+## Data Engineering & Security
+
+### Row-Level Security (RLS) Architecture for Tabular Models · 2025
+
+**Repo:** [tabular-rls-multi-level-security](https://github.com/B-White-M/tabular-rls-multi-level-security)
+
+Design and implementation of a scalable, multi-level security architecture for enterprise tabular models, built on dimensional hierarchies and filter propagation.
+
+Covers hierarchical security design, security tables, superuser access patterns, filter propagation, and impersonation testing.
+
+---
+
+## Business Intelligence & Analytics
+
+### Global Assets Dashboard — Power BI · 2023–2024
+
+**Repo:** [Global_Assets_Dashboard](https://github.com/B-White-M/Global_Assets_Dashboard)
+
+Power BI solution that analyzes and visualizes asset-management data, surfaces recurring errors and financial risk, and includes a real-time location map connected to a SQL backend to support decision-making.
+
+---
+
+## Foundations — Data & Automation
+
+### Python — Web Scraping & Market Analysis · 2023–2024
+
+**Repo:** [Python / Jupyter](https://github.com/B-White-M/Pyton-Jupyter-)
+
+Web scraping across multiple sources to gather market-trend data, then analyzing supply-and-demand drivers over time.
+
+### VBA — Excel Automation · 2022–2023
+
+**Repo:** [VBA-Excel-Macros](https://github.com/B-White-M/VBA-Excel-Macros)
+
+Form-driven data capture into structured spreadsheets, plus automated personalized email dispatch from Excel via VBA.
+
+---
+
+## Tech Stack
+
+- **AI / LLM:** Claude API (tool use, RAG), OpenAI (Whisper, Vision, embeddings)
+- **Data:** PostgreSQL, Supabase, pgvector, SQL, ETL
+- **Orchestration:** n8n
+- **BI & Analytics:** Power BI, DAX, Python (Pandas)
+- **Channels & APIs:** Meta Cloud API (WhatsApp Business), REST API integration
+
+---
+
 ## Contact
 
-If you have any questions or would like to discuss my work further, feel free to contact me at: byron.w.montero@gmail.com
-
-**Email:** byron.w.montero@gmail.com
+- **Email:** byron.w.montero@gmail.com
+- **LinkedIn:** [byron-white-montero](https://www.linkedin.com/in/byron-white-montero-069422123)
